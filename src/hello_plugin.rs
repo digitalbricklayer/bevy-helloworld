@@ -11,8 +11,8 @@ struct Person;
 struct Name(String);
 
 fn add_people(mut commands: Commands) {
-    commands.spawn((Person, Name("Jack Hughes".to_string())));
-    commands.spawn((Person, Name("Elaine Hughes".to_string())));
+    commands.spawn((Person, Name("Babe Ruth".to_string())));
+    commands.spawn((Person, Name("Mickey Mantle".to_string())));
 }
 
 #[derive(Resource)]
